@@ -78,6 +78,9 @@
   text-align: center;
   order: 1;
 }
-
 .parent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 20%;
 }

@@ -14,10 +14,11 @@
   text-align: center;
 }
 
+
 .container-3 {
   width: 100px;
   height: 100px;
-  background-color: lightgreen;
+  background-color: red;
   color: white;
   text-align: center;
 }
@@ -71,4 +72,10 @@
 }
 
 .parent {
-}  
+  display: grid;
+  grid-template-areas: "container1"
+                      "container9"
+                      "container7"
+                      "container2 container3 container4"
+                      "container5 container6 container8";
+}
